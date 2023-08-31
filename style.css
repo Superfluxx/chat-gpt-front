@@ -1,0 +1,106 @@
+/* Applique un fond noir */
+body {
+    background-color: #000;
+    color: #fff; /* Couleur du texte */
+    font-family: 'Gill Sans, sans-serif', sans-serif; 
+}
+
+/* Augmente l'espacement entre les blocs */
+.container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px; /* Ajoute de l'espace autour du contenu */
+}
+
+/* Style pour le champ de remplissage de texte */
+#inputText {
+    width: 80%; /* Occupe 80% de la largeur de la fenêtre */
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #007bff; /* Bordure bleue */
+    border-radius: 4px;
+    background-color: #000; /* Fond noir pour le champ de texte */
+    color: #fff; /* Couleur du texte dans le champ */
+}
+
+/* Style pour la liste déroulante */
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #007bff; /* Bordure bleue */
+    border-radius: 4px;
+    background-color: #000; /* Fond noir pour la liste déroulante */
+    color: #fff; /* Couleur du texte dans la liste déroulante */
+}
+
+/* Style pour le bouton */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Ajoute de l'espace en haut du bouton */
+}
+
+/* Style au survol du bouton */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le conteneur */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styles pour le bouton du menu déroulant */
+.dropbtn {
+    background-color: #3498db; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style au survol du bouton */
+.dropbtn:hover {
+    background-color: #2980b9; /* Couleur de fond au survol */
+}
+
+/* Styles pour le contenu du menu déroulant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1; /* Couleur de fond du menu déroulant */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Ombre */
+    z-index: 1;
+}
+
+/* Styles pour les liens du menu déroulant */
+.dropdown-content a {
+    color: #333; /* Couleur du texte des liens */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style au survol des liens */
+.dropdown-content a:hover {
+    background-color: #ddd; /* Couleur de fond au survol des liens */
+}
+
+/* Affichage du menu déroulant lorsqu'il est survolé */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Espacement à droite pour l'aligner avec le champ de texte */
+}
